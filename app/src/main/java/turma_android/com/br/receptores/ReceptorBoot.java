@@ -5,7 +5,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.widget.Toast;
 
-public class ReceptorDinamico extends BroadcastReceiver {
+public class ReceptorBoot extends BroadcastReceiver {
 
     @Override
     public void onReceive(Context context, Intent intent) {

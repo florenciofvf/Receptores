@@ -5,7 +5,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.widget.Toast;
 
-public class ReceptorDinamico extends BroadcastReceiver {
+public class ReceptorLocal extends BroadcastReceiver {
 
     @Override
     public void onReceive(Context context, Intent intent) {
@@ -13,4 +13,5 @@ public class ReceptorDinamico extends BroadcastReceiver {
 
         Toast.makeText(context, acao, Toast.LENGTH_SHORT).show();
     }
+
 }
